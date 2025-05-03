@@ -7,7 +7,7 @@ function LandingPage() {
     return ( 
         <div className="landing-page">
             <Section url="/media/images/gatherUp landing page.png"/>
-            <Section2/>
+            <Section2 url=""/>
             <Section3/>
             <Section4/>
         </div>
