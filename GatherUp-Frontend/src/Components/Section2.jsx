@@ -1,8 +1,13 @@
 import React from 'react';
+import "./section.css"
+function Section2({url}) {
+    return ( 
+        
+        <div className="section2 !h-screen">
+           
+        </div>
 
-function Section2() {
-    return ( <>
-    </> );
+     );
 }
 
 export default Section2;

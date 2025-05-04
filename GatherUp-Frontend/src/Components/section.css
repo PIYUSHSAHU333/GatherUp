@@ -1,9 +1,17 @@
-.section > img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1; /* Send behind other content */
+.section {
+  background:url("/media/images/gatherUplanding page.png") no-repeat;
+  background-size: cover;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.section2{
+    background:url("/media/images/gatherUp2.png") no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
 }
