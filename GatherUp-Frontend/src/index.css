@@ -21,9 +21,10 @@
 html{
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: auto;
   width: 100%;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 a {
   font-weight: 500;
@@ -37,9 +38,8 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow: auto;
-  background-color: red;
+  height: auto;
+  overflow-x: hidden ;
 }
 
 h1 {

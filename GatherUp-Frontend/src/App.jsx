@@ -4,18 +4,25 @@ import viteLogo from '/vite.svg'
 import LandingPage from './Components/LandingPage'
 import  { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
+import Footer from './Components/Footer';
 
 function App() {
   
   return (
     
     <Router>
- 
-    <Routes>
-      
-      <Route path="/" element={<LandingPage />} /> 
-    </Routes>
-  </Router>
+      <div className="min-h-screen flex flex-col">
+        {/* growing main area */}
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            {/* other routes */}
+          </Routes>
+        </main>
+
+        <Footer />
+      </div>
+    </Router>
      
     
   )
