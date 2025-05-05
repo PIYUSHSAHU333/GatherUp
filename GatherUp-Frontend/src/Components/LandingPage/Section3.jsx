@@ -3,7 +3,7 @@ import "./section.css";
 import FaqCard from "./Faqcard";
 function Section3() {
   return (
-    <div className="section3  flex flex-col justify-center items-center">
+    <div className="section3  flex flex-col min-h-screen justify-center items-center">
       <h1 className="text-[#6b21a8]">FAQ's</h1>
       <div className=" grid gap-x-28 gap-y-16 mb-5 grid-cols-3 mt-16 text-2xl">
         <FaqCard

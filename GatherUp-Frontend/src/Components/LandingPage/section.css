@@ -12,7 +12,7 @@
 
 .section::before {
   content: '';
-  position: fixed; /* 🔥 FIXED is key here */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
