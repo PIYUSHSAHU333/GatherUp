@@ -11,7 +11,7 @@ function SearchBar({ onResults }) {
 
     try {
       const response = await axios.get(
-        `http://localhost:8080/browseEvents?q=${query}`
+        `http://localhost:8080/searchEvents?q=${query}`
       );
       onResults(response.data);
     } catch (e) {

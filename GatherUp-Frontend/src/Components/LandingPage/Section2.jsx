@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.css";
-function Section2({ url }) {
+function Section2() {
   return (
     <>
       <div className="flex justify-evenly min-h-screen items-center">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.css";
-import FaqCard from "./Faqcard";
+import FaqCard from "./Faqcard.jsx";
 function Section3() {
   return (
     <div className="section3  flex flex-col min-h-screen justify-center items-center">

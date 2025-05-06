@@ -44,6 +44,10 @@
   width: 100px;
 }
 
+.logOutBtn{
+  background-color: rgba(255, 0, 0, 0.8);
+  border: none;
+}
 .card{
   height: 300px;
   width: 250px;

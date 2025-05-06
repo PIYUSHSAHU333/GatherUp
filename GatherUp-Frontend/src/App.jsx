@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import LandingPage from './Components/LandingPage/LandingPage'
-import BrowseEventPage from './Components/BrowseEventPage/BrowseEventPage'
+import Auth from './Components/Auth.jsx';
+import LandingPage from './Components/LandingPage/LandingPage.jsx'
+import BrowseEventPage from './Components/BrowseEventPage/BrowseEventPage.jsx'
 import  { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import Footer from './Components/LandingPage/Footer';
+import Footer from './Components/LandingPage/Footer.jsx';
 
 function App() {
   
@@ -13,14 +11,13 @@ function App() {
     
     <Router>
       <div className="min-h-screen flex flex-col">
-        {/* growing main area */}
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/browseEvents" element={<BrowseEventPage />} />
+            <Route path='/user' element={<Auth/>}/>
           </Routes>
         </main>
-
         <Footer />
       </div>
     </Router>
