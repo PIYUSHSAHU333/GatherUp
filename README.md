@@ -104,6 +104,8 @@ Routes are protected using JWT middleware.
 
 💬 Comments or reviews on events
 
+[watch demo on Loom](https://www.loom.com/share/8a897e60363e4ac79caac73df8f63626?sid=44af6333-7572-4084-9162-dec91f0c07b3)
+
 
 👨‍💻 Author
   Piyush | Twitter(X): godsplay39 | telegram: +91 7007337311(Piyush Sahu)
