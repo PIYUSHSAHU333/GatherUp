@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { searchEvents, submitEvents, browseEvents } from "../controllers/eventController";
+import { searchEvents, submitEvents, browseEvents } from "../controllers/eventController.js";
 const router = Router();
 
 router.route("/searchEvent").post(searchEvents);

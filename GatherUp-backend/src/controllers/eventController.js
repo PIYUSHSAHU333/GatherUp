@@ -1,4 +1,4 @@
-import Event from "../Models/event";
+import Event from "../Models/event.js";
 
 const browseEvents = async(req, res)=>{
     console.log("GET /browseEvents hit");
