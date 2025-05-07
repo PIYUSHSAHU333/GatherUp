@@ -18,7 +18,7 @@ function Auth() {
 
     try {
       console.log("before fetch")
-      const response = await fetch("http://localhost:8080/login", {
+      const response = await fetch("http://localhost:8080/user/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -59,7 +59,7 @@ function Auth() {
       return;
     }
     try {
-      const response = await fetch("http://localhost:8080/signup", {
+      const response = await fetch("http://localhost:8080/user/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,16 +75,18 @@ function Auth() {
         navigate("/");
       } else {
         setSnackbar(data.message);
-        setError(data.message);
+        setTimeout(()=>{
+          setSnackbar("")
+        }, 3000)
+        
       }
     } catch (error) {
       console.error("Error registering:", error);
-      setError("Server error");
     }
   };
 
   return (
-    <div className="flex justify-center min-h-screen items-center">
+    <div className="flex justify-center loginPg min-h-screen items-center">
       <form
         class="form_container text-center"
         onSubmit={(e) => {

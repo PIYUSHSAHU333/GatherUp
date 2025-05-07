@@ -4,7 +4,7 @@ import BrowseEventPage from './Components/BrowseEventPage/BrowseEventPage.jsx'
 import  { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Footer from './Components/LandingPage/Footer.jsx';
-
+import SubmitEvent from './Components/SubmitEvent/SubmitEvent.jsx';
 function App() {
   
   return (
@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/browseEvents" element={<BrowseEventPage />} />
             <Route path='/user' element={<Auth/>}/>
+            <Route path='/submitevent' element={<SubmitEvent/>}/>
           </Routes>
         </main>
         <Footer />

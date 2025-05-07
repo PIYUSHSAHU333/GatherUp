@@ -17,21 +17,14 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url("/media/images/together.jpg") no-repeat center center;
+  background: url("/media/images/mainPic.jpeg") no-repeat center center;
   background-size: cover;
-  filter: blur(10px);
-  z-index: -3; /* stays behind */
-}
+  filter: blur(5px);
+  z-index: -3;
+  /*  stays behind*/
+} 
 
-.faq{
-  height: 500px;
-  width: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px); 
-  border-radius: 10px;
-  box-shadow: 3px 3px 15px black;
-  cursor: pointer;
-}
+
 .gradientText{
   background: linear-gradient(to right, #1e40af, #6b21a8, #facc15); 
   -webkit-background-clip: text;
@@ -39,10 +32,7 @@
   background-clip: text;
   color: transparent;
 }
-.faqCard{
-  height: 100px;
-  width: 100px;
-}
+
 
 .logOutBtn{
   background-color: rgba(255, 0, 0, 0.8);
@@ -54,6 +44,7 @@
   background: linear-gradient(135deg, rgba(30, 64, 175, 0.7), rgba(107, 33, 168, 0.7), rgba(250, 204, 21, 0.7));
   box-shadow: 3px 3px 10px rgb(107, 33, 168);
   border-radius: 16px;
+  z-index: 1000 !important;
 }
 .card:hover{
   box-shadow:  3px 3px 10px rgba(250,204, 21 , 0.3);

@@ -19,7 +19,7 @@
     z-index: -2;
 }
 
-.grid { 
+.grid1 { 
   height: 800px;
   width: 800px;
   background-size: 1rem 1rem;
@@ -28,8 +28,14 @@
   z-index: -1;
   filter: blur(1px);
 }
+.noMatch{
+  border: solid 3px purple;
+  border-radius: 14px;
+  width: fit-content;
+  padding: 15px;
+}
 .white,
-.border,
+.border1,
 .darkBorderBg,
 .glow {
   max-height: 70px;
@@ -119,13 +125,13 @@
   );
   transition: all 2s;
 }
-.border {
+.border1 {
   max-height: 59px;
   max-width: 402px;
   border-radius: 11px;
   filter: blur(0.5px);
 }
-.border::before {
+.border1::before {
   content: "";
   z-index: -2;
   text-align: center;

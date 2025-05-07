@@ -2,9 +2,9 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="min-h-screen flex justify-center p-2 items-center AboutSection">
+    <div className="min-h-screen sm:mt-0 mt-[300px] flex sm:flex-row flex-col justify-center sm:p-2 p-3   items-center AboutSection">
       <div className=" gradientText flex-1 flex flex-col mx-auto items-center">
-        <h1 className="gradientText text-left text-sm font-bold mb-7">
+        <h1 className="gradientText sm:text-left text-center flex justify-center text-sm font-bold mb-7">
           About GatherUp
         </h1>
         <p className="text-xl font-medium flex text-center justify-center">
@@ -18,7 +18,7 @@ function AboutSection() {
       </div>
 
       <div className="flex flex-1 justify-center">
-        <img src="/media/images/AboutImg.png" className="w-2/3" alt="#" />
+        <img src="/media/images/AboutImg.png" className="sm:w-2/3 w-10/10" alt="#" />
       </div>
     </div>
   );

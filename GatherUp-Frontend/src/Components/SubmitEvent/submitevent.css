@@ -1,0 +1,24 @@
+.submitevent {
+    width: 100% !important;
+    background: none;
+    /* height: 100% !important; */
+    margin: 0;
+    padding: 0;
+    /* min-height: 100vh; */
+    position: relative;
+    /* overflow-y: auto;   */
+    z-index: 0;
+  }
+  
+  .submitevent::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("/media/images/BrowseEventpage.jpg") no-repeat center center;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -3; /* stays behind */
+  }
