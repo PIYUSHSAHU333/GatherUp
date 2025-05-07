@@ -106,7 +106,7 @@ Routes are protected using JWT middleware.
 
 
 👨‍💻 Author
-  Piyush
+  Piyush | Twitter(X): godsplay39 | telegram: +91 7007337311(Piyush Sahu)
 
 📄 License
 This project is licensed under the ISC License.  
