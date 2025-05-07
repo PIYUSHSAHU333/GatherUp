@@ -9,7 +9,7 @@ function BrowseEventPage() {
    const [result, setResult] = useState([]);
    const onEmptySearch = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/browseEvents");
+      const response = await axios.get("http://localhost:8080/events/browseEvent");
       setResult(response.data); // Update state with all events
     } catch (e) {
       console.log(e);
